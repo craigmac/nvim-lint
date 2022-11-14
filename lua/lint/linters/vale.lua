@@ -15,6 +15,7 @@ local severities = {
 return {
   cmd = 'vale',
   stdin = true,
+  ignore_exitcode = true,
   args = {
     '--no-exit',
     '--output', 'JSON',
